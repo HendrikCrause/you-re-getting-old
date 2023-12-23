@@ -1,5 +1,5 @@
 <template>
-    <h1>Redeem your youth if:</h1>
+    <h1 class="font-serif text-center text-7xl text-white">Redeem your youth if:</h1>
 
     <button>
         <RouterLink to="/game/old">Next</RouterLink>

@@ -1,4 +1,4 @@
-[
+export const oldQuestionTexts = [
     "You forget why you walked into the room, then claim it’s because \"it’s that time of year.\"",
     "You get genuinely excited about receiving a new set of kitchen towels.",
     "You reread the same Christmas card multiple times because you forgot what it said.",

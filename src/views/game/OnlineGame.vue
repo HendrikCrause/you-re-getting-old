@@ -1,5 +1,5 @@
 <template>
-    <h1>Online Score</h1>
+    <h1 class="font-serif text-center text-7xl text-white">Online Score</h1>
 
     <RouterLink to="/client/start">Send players to this link</RouterLink>
 

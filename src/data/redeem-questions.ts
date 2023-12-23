@@ -1,4 +1,4 @@
-[
+export const redeemQuestionTexts = [
     "You eagerly count down the days on an advent calendar.",
     "You believe in Santa Claus and write him heartfelt letters.",
     "You wake up ridiculously early on Christmas morning, unable to contain your excitement.",

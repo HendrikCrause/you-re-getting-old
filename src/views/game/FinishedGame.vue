@@ -1,5 +1,5 @@
 <template>
-    <h1>Finished</h1>
+    <h1 class="font-serif text-center text-7xl text-white">Finished</h1>
 
     <button>
         <RouterLink to="/game/old">Play again</RouterLink>
