@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import BaseLayout from "../components/BaseLayout.vue";
-</script>
-
 <template>
     <BaseLayout>
         <h1 class="font-serif text-center text-9xl text-white">You're Getting Old</h1>
