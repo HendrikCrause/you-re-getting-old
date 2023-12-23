@@ -1,10 +1,10 @@
 <template>
-    <h1>Starting a new Game</h1>
+    <BaseLayout>
+        <h1 class="font-serif text-center text-9xl text-white">Starting a new Game</h1>
 
-    <button>
-        <RouterLink to="/game/online">Online</RouterLink>
-    </button>
-    <button>
-        <RouterLink to="/game/print">Print</RouterLink>
-    </button>
+        <p class="text-white text-5xl">How would you like to keep score?</p>
+    
+        <RouterLink to="/game/online" class="bg-red-800 rounded-lg w-1/2 p-5 text-white mt-8 text-5xl text-center">Online</RouterLink>
+        <RouterLink to="/game/print" class="bg-green-800 rounded-lg w-1/2 p-5 text-white mt-8 text-5xl text-center">Print</RouterLink>
+    </BaseLayout>
 </template>
