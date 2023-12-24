@@ -12,7 +12,7 @@ function clickedReset() {
 </script>
 
 <template>
-    <BaseLayout>
+    <BaseLayout noImage=true>
         <h2 class="text-white text-3xl text-center">Your score has reached</h2>
         <h1 class="text-white text-7xl">{{ scoreStore.score }}</h1>
         <h3 class="text-slate-300 text-2xl text-center max-w-60 font-serif font-light">Sorry to say, but you're really getting old</h3>

@@ -18,7 +18,7 @@ const gameSteps = [
 </script>
 
 <template>
-    <BaseLayout>
+    <BaseLayout noImage=true>
         <h1 class="font-serif text-center text-6xl text-white">How to play</h1>
 
         <h3 class="text-white text-3xl">Setup</h3>

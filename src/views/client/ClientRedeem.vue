@@ -23,7 +23,7 @@ function clickedReset() {
 </script>
 
 <template>
-    <BaseLayout background="bg-gradient-to-b from-green-700 to-green-900">
+    <BaseLayout background="bg-gradient-to-b from-green-700 to-green-900" noImage=true>
         <p class="text-white text-xl">Current score: {{ scoreStore.score }}</p>
         <h2 class="text-white text-4xl text-center">Does the scenario on screen apply to you?</h2>
     
