@@ -27,11 +27,11 @@ function clickedReset() {
 </script>
 
 <template>
-    <BaseLayout>
+    <BaseLayout background="bg-gradient-to-b from-red-700 to-red-900">
         <p class="text-white text-xl">Current score: {{ scoreStore.score }}</p>
         <h2 class="text-white text-4xl text-center">Does the scenario on screen apply to you?</h2>
     
-        <button @click="clickedYes" class="bg-red-800 rounded-lg w-1/2 p-5 text-white text-4xl text-center mt-4">Yes</button>
+        <button @click="clickedYes" class="bg-blue-800 rounded-lg w-1/2 p-5 text-white text-4xl text-center mt-4">Yes</button>
         <button @click="clickedNo" class="bg-green-800 rounded-lg w-1/2 p-5 text-white text-4xl text-center mt-4">No</button>
         <button @click="clickedReset" class="w-1/2 p-5 text-purple-500 text-2xl text-center underline">Reset</button>
     </BaseLayout>
