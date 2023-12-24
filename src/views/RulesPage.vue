@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-
 
 const setupSteps = [
     "First things first, scan your scorecard using the QR code, or if you don’t know what a QR code is ask the younger-looking person sitting next to you.",
