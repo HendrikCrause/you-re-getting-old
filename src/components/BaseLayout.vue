@@ -13,7 +13,7 @@ const showImage = props.noImage === undefined ? true : ! props.noImage
 
 <template>
     <div :class="classes">
-        <img v-if="showImage" src="../assets/background.png" class="absolute w-full -bottom-20 z-0"/>
+        <img v-if="showImage" src="../assets/background.png" class="absolute w-full -bottom-20 left-0 z-0"/>
         <div class="max-w-7xl flex flex-col gap-8 items-center z-10">
             <slot></slot>
         </div>
